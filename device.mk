@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
    TelephonyOverlayVeux \
    WifiOverlayVeux
 
+# Setup
+PRODUCT_PACKAGES += \
+    PixelSetupWizardResTarget
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
