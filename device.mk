@@ -29,6 +29,16 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+PRODUCT_PACKAGES += \
+   CarrierConfigOverlayVeux \
+   DialerOverlayVeux \
+   FrameworksResOverlayVeux \
+   SettingsProviderOverlayVeux \
+   SettingsOverlayVeux \
+   SystemUIOverlayVeux \
+   TelephonyOverlayVeux \
+   WifiOverlayVeux
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
